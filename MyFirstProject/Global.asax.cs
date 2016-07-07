@@ -14,7 +14,7 @@ namespace MyFirstProject
     {
         protected void Application_Start()
         {
-            Database.SetInitializer<SchoolContext>(new SchoolInitializer());
+            
             //Database.SetInitializer<SchoolContext>(new SchoolInitializer());
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);

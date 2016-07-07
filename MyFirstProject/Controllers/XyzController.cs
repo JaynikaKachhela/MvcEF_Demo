@@ -10,13 +10,13 @@ namespace MyFirstProject.Controllers
 {
     public class XyzController : Controller
     {
-        private SchoolContext db = new SchoolContext();
-        public ActionResult Abc()
-        {
-            var students = db.Students.ToList();
-            return View(students);
+        //private SchoolContext db = new SchoolContext();
+        //public ActionResult Abc()
+        //{
+        //    var students = db.Students.ToList();
+        //    return View(students);
             
-        }
+        //}
         public ActionResult Index()
         {
             return View();

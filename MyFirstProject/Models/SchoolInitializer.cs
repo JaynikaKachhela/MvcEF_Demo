@@ -14,7 +14,7 @@ namespace MyFirstProject.Models
             {
                 new Student { FirstName="Jaynika",LastName="Kachhela",EnrollmentDate=DateTime.Parse("2015-08-08")},
                 new Student { FirstName="Mittal",LastName="Parmar",EnrollmentDate=DateTime.Parse("2016-01-08")},
-                new Student { FirstName="Pankaj",LastName="Prajapati",EnrollmentDate=DateTime.Parse("2013-03-08")}
+                new Student { FirstName="Hiren",LastName="Kachhela",EnrollmentDate=DateTime.Parse("2013-03-08")}
             };
             foreach (var s in students)
             {
