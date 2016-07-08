@@ -8,11 +8,10 @@ namespace MyFirstProject.Controllers
 {
     public class CourseController : Controller
     {
-        // GET: Course
-
         public ActionResult Index()
         {
             return View();
         }
+       
     }
 }
